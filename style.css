@@ -1,0 +1,173 @@
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} 
+textarea {overflow:auto;}
+
+/***** RESET *****/
+
+
+
+.hepsi{
+    width:760px;
+    height: auto;
+    margin:10px auto;
+}
+
+
+.anamenu{
+    width: 400px;
+    height: 50px;
+}
+body{
+    background-color: antiquewhite;
+    background-image: url("bg.jpg");
+    font-family: 'Open Sans',sans-serif;
+
+}
+
+#sayfa{
+    width: 800px ;
+    min-height: 500px;
+    border-width: 1px;
+    margin: auto;
+}
+/* banner*/
+#banner{
+    width: 796px;
+    height: 120px;
+    background-color: beige;
+    margin:0 auto;
+    
+
+}
+#logo{
+    width:100px;
+    height: 80;
+    border-width: 1px;
+    background-color: beige;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float:left;
+
+}
+
+#sosyal{
+    width:180px;
+    height: 80;
+    border-width: 1px;
+    background-color: beige;
+    position: relative;
+    top: 50px;
+    right: 10px;
+    float: right;
+
+}
+
+/* Ä°Ã§erik kÄ±smÄ±*/
+#icerik{
+    width: 730px;
+    height: 400px;
+    margin:0 auto;
+    border: 1px solid rgb(87 92 146);
+    background-color:#f2deded1        
+    
+}
+
+/* alt kÄ±sÄ±m */
+#altmenu{
+    width: 100%;
+    height: 50px;
+    background-color: #ffc0cb9e;
+}
+
+/* logo */
+#logo{
+    width: 100px;
+    height: 80px;
+    border-width: 1px;
+    position:relative;
+    top:10px;
+    left:10px;
+    float:left;
+}
+#sosyal{
+    width: 150px; 
+    float:right;
+/* margin-left: 200px;*/
+    height: 0px;
+    border-width: 1px;
+   position: relative;
+   top:40px;
+   right:10px; 
+   left:28px;
+
+}
+#ikon{
+    width: 35px;
+    height: 35px;
+
+}
+/* ANA MENU */
+#anamenu{
+    width: 796px;
+    height: 50px;
+    background-color: #a8e6da;
+    margin:0 auto;
+}
+#anamenu ul{
+    list-style-type: none;
+}
+#anamenu ul li{
+    width:80px;
+    border-style:solid;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color: blue;
+    background-color: #e6c7a0;
+    float:left;
+    padding: 4px;
+    margin-left: 32px;
+    position: relative;
+    top:10px;
+    text-align: center;
+}
+
+#anamenu ul a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+#anamenu ul a:link{
+    color: cyan;
+}
+
+#anamenu ul a:visited{
+color: brown;
+}
+
+#anamenu ul a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+
+#anamenu ul a:active{
+color: crimson;
+}
