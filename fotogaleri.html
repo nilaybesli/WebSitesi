@@ -2,13 +2,18 @@
 <html lang="tr">
 <head>
 <meta http-equiv="Content-Type" content ="text/html"; charset="utf-8" />
+
 <title>Nilay Beşli Kişisel Web Sitesi</title>
 <meta name="description" content ="Nilay Beşli Kişisel Web Sitesi">
 <meta name="keywords" content="nilay,besli,bandirma,odev,html,css">
+
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
+    <script src ="main.js"> </script>
+
     <div id="sayfa">
         <header id = "banner">
             <div id="logo" >
@@ -39,7 +44,21 @@
             </ul>
         </nav>
 
-        <article id ="icerik">
+        <article id ="icerik" class="icerik_foto">
+            <div class="main">
+                <img id="mainImg" src="img/img1.jpg" width="550" height="340" >
+            </div>
+
+           <ul class="other">
+               <li onclick="fotoChange(1)"> <img src="img/img1.jpg" width="150" height="150"></li>
+               <li onclick="fotoChange(2)"><img src="img/img2.jpg" width="150" height="150" ></li>
+               <li onclick="fotoChange(3)"><img src="img/img3.jpg" width="150" height="150" ></li>
+               <li onclick="fotoChange(4)"><img src="img/img4.jpg" width="150" height="150" ></li>
+               <li onclick="fotoChange(5)"><img src="img/img5.jpg" width="150" height="150"></li>
+               <li onclick="fotoChange(6)"><img src="img/img6.jpg" width="150" height="150" ></li>
+
+           </ul>
+
         </article>
 
         <footer id="altmenu">

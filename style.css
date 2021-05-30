@@ -103,7 +103,7 @@ body{
     float: right;   
 }
 
-/* alt kÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±sÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±m */
+/* alt menu */
 #altmenu{
     width: 100%;
     height: 50px;
@@ -123,13 +123,12 @@ body{
 #sosyal{
     width: 150px; 
     float:right;
-/* margin-left: 200px;*/
     height: 0px;
     border-width: 1px;
-   position: relative;
-   top:40px;
-   right:10px; 
-   left:28px;
+    position: relative;
+    top:40px;
+    right:10px; 
+    left:28px;
 
 }
 #ikon{
@@ -202,7 +201,7 @@ color: crimson;
 
 /* icerik css */
 
-#icerik li{
+.icerik_gundem li{
     width:200px;
     border-style:solid;
     border-width: 2px;
@@ -219,7 +218,7 @@ color: crimson;
     
 }
 
-#icerik li a{
+.icerik li a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     font-weight: bold;
@@ -228,27 +227,27 @@ color: crimson;
 }
 
 
-#icerik li a:link{
+.icerik_gundem li a:link{
     color: cyan;
 }
 
-#icerik li a:visited{
+.icerik_gundem li a:visited{
 color: brown;
 }
 
-#icerik li a:hover{
+.icerik_gundem li a:hover{
     color: gray;
     text-decoration: underline;
 }
 
-#icerik li a:active{
+.icerik_gundem li a:active{
 color: crimson;
 }
 
 /* iletisim */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 
-.container {
+.container_iletisim  {
 	max-width:400px;
 	width:100%;
     padding:50px;
@@ -350,4 +349,46 @@ fieldset {
 }
 :-ms-input-placeholder {
  color:#888;
+}
+
+/* foto */
+ .main{
+     width: 80%;
+     padding: 10px;
+     background-color: white;
+     margin: auto;
+     box-shadow: 0px 5px 30px 1px gray;
+    }
+ .main img{
+     width: 100%;
+ }
+
+.other {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+} 
+
+.other  li:hover {
+    box-shadow: 1px 1px 10px 5px gray;
+}
+.other  ul li img{
+    width: 10%;
+    
+}
+.icerik_foto li{
+    width:150px;
+    border-style:solid;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color:rgb(134 128 61);
+    background-color: #cac3bd;
+    float:left;
+    margin-left:35px;
+    padding: 20px;
+    margin-top:25%;
+    position: relative;
+    text-align: center;
+    
+    
 }
