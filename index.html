@@ -5,6 +5,7 @@
 <title>Nilay Beşli Kişisel Web Sitesi</title>
 <meta name="description" content ="Nilay Beşli Kişisel Web Sitesi">
 <meta name="keywords" content="nilay,besli,bandirma,odev,html,css">
+<meta name = ”viewport” content = "width = device-width, initial-scale = 1 ">
 <link rel="stylesheet" href="style.css" >
 
 </head>
@@ -42,39 +43,26 @@
         </nav>
 
         <article id ="icerik">
-            <div style="padding:1em 0;"> <h3><a style="text-decoration:none;" ></a><span style="color:gray;">Şu anki saat</span><br />Istanbul, Turkey</a></h3> 
+            <div style="padding:1em 0;"> <h3><a style="text-decoration:none; margin-left:70px;" ></a><span style="color:gray; ">Şu anki saat</span><br />&emsp;&emsp;&emsp;Istanbul, Turkey</a></h3> 
                 <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=medium&timezone=Europe%2FIstanbul" width="390" height="115" frameborder="0" seamless></iframe>
              </div>
             <div id="hava">
                             
-                    <script language="javascript" 
+                <script language="javascript" 
                 src="https://www.havadurumu15gunluk.xyz/sitene-ekle/1/havadurumu2.js?il=istanbul&ilce=istanbul&w=400&h=500&title=0e0e0e&bg=a1afba">
                 </script>
                 <noscript>
                     <a href="https://www.havadurumu15gunluk.xyz/havadurumu/630/istanbul-hava-durumu-15-gunluk.html">İstanbul Hava durumu</a>
                 </noscript>
             </div>
-            <div style="margin-top: 450px; margin-left: 250px;">
+            
+            <div style="margin-top: 400px; margin-left: 250px;">
                 <audio id="myAudio">
                     <source src="Confetti.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                   </audio>
-                  
-                  <p>Click the buttons to play or pause the audio.</p>
-                  
-                  <button onclick="playAudio()" type="button">Play Audio</button>
-                  <button onclick="pauseAudio()" type="button">Pause Audio</button>
-                  <script>
-                    var x = document.getElementById("myAudio"); 
-                    
-                    function playAudio() { 
-                      x.play(); 
-                    } 
-                    
-                    function pauseAudio() { 
-                      x.pause(); 
-                    } 
-                    </script>
+                  <p>Click the buttons to play or pause the audio.<br><br></p>
+                  <button type="button" id="playPauseButton" onclick="togglePlay()" type="button" onclick="pauseAudio()" ></button>
             </div>
 
         </article>
