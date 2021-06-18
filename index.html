@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
-<meta http-equiv="Content-Type" content ="text/html"; charset="utf-8" />
-<title>Nilay Beşli Kişisel Web Sitesi</title>
-<meta name="description" content ="Nilay Beşli Kişisel Web Sitesi">
-<meta name="keywords" content="nilay,besli,bandirma,odev,html,css">
-<meta name = ”viewport” content = "width = device-width, initial-scale = 1 ">
-<link rel="stylesheet" href="style.css" >
+    <meta http-equiv="Content-Type" content ="text/html"; charset="utf-8" />
+    <title>Nilay Beşli Kişisel Web Sitesi</title>
+
+    <meta name="description" content ="Nilay Beşli Kişisel Web Sitesi">
+    <meta name="keywords" content="nilay,besli,bandirma,odev,html,css">
+    <meta name = ”viewport” content = "width = device-width, initial-scale = 1 ">
+
+    <link rel="stylesheet" href="style.css" >
 
 </head>
     
@@ -20,59 +23,62 @@
                 <img src="img/nilaylogo.png" alt="Nilay Besli" title="Nilay Besli"> </a>
             </div> 
             <div id="sosyal">
-                <a href="https://www.instagram.com/niilay1/"><img id="ikon" src="img/ig.png"></a>
-                <a href="https://www.twitter.com"><img id="ikon" src="img/twitter.png"></a>
-                <a href="https://www.linkedin.com/in/nilay-be%C5%9Fli-a21b95193/"><img id="ikon" src="img/linkedin.png"></a>
-                <a href="https://replit.com/@nilaybesli"><img id="ikon" src="img/repli.png"></a>
-                <a href="https://github.com/nilaybesli"><img id="ikon" src="img/github.png"></a>
-                <a href="https://www.youtube.com/"><img id="ikon" src="img/youtube.png"></a>
-
+                <a href="https://www.instagram.com/niilay1/" target="_blank"><img id="ikon" src="img/ig.png" ></a>
+                <a href="https://www.twitter.com" target="_blank" ><img id="ikon" src="img/twitter.png"></a>
+                <a href="https://www.linkedin.com/in/nilay-be%C5%9Fli-a21b95193/ " target="_blank"><img id="ikon" src="img/linkedin.png"></a>
+                <a href="https://replit.com/@nilaybesli" target="_blank" ><img id="ikon" src="img/repli.png"></a>
+                <a href="https://github.com/nilaybesli" target="_blank"><img id="ikon" src="img/github.png"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img id="ikon" src="img/youtube.png"></a>
             </div>
         </header>
 
         <nav id="anamenu">
             <ul> 
-            <li> <a href="index.html"> Anasayfa</a></li>
-            <li> <a href="fotogaleri.html"> Foto Galeri</a></li>
-            <li> <a href="hakkimda.html"> Hakkımda</a></li>
-            <li> <a href="gundem.html"> Gündem</a></li>
-            <li> <a href="projeler.html"> Projeler</a></li>
-            <li> <a href="iletisim.html"> İletişim</a></li>
+                <li> <a href="index.html"> Anasayfa</a></li>
+                <li> <a href="fotogaleri.html"> Foto Galeri</a></li>
+                <li> <a href="hakkimda.html"> Hakkımda</a></li>
+                <li> <a href="gundem.html"> Gündem</a></li>
+                <li> <a href="iletisim.html"> İletişim</a></li>
 
             </ul>
         </nav>
 
         <article id ="icerik">
-            <div style="padding:1em 0;"> <h3><a style="text-decoration:none; margin-left:70px;" ></a><span style="color:gray; ">Şu anki saat</span><br />&emsp;&emsp;&emsp;Istanbul, Turkey</a></h3> 
+            <h4 style= "text-align: center;"><br><br>Bir şeyler dinlemek için tıklayın.<br><br></h4>
+            <div style=" margin-left: 270px;">
+                <audio id="myAudio" >
+                    <source src="Confetti.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <button type="button" id="playPauseButton" onclick="togglePlay()" type="button" onclick="pauseAudio()" ></button>
+            </div>
+            
+            <div style="margin-top: 200px;"> 
+                <h3><a style="text-decoration:none; margin-left:70px;" ></a><span style="color:gray; ">Şu anki saat</span><br />&emsp;&emsp;&emsp;Istanbul, Turkey</a></h3> 
                 <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=medium&timezone=Europe%2FIstanbul" width="390" height="115" frameborder="0" seamless></iframe>
-             </div>
-            <div id="hava">
-                            
+            </div>
+
+            <div id="hava">     
                 <script language="javascript" 
                 src="https://www.havadurumu15gunluk.xyz/sitene-ekle/1/havadurumu2.js?il=istanbul&ilce=istanbul&w=400&h=500&title=0e0e0e&bg=a1afba">
                 </script>
+
                 <noscript>
                     <a href="https://www.havadurumu15gunluk.xyz/havadurumu/630/istanbul-hava-durumu-15-gunluk.html">İstanbul Hava durumu</a>
                 </noscript>
             </div>
             
-            <div style="margin-top: 400px; margin-left: 250px;">
-                <audio id="myAudio">
-                    <source src="Confetti.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                  </audio>
-                  <p>Click the buttons to play or pause the audio.<br><br></p>
-                  <button type="button" id="playPauseButton" onclick="togglePlay()" type="button" onclick="pauseAudio()" ></button>
-            </div>
+           
 
         </article>
 
         <footer id="altmenu">
+            <br>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank" style="text-align: center; color: navy; margin-left: 40%;">nil.besli@gmail.com</a>
         </footer>
 
     </div>
 
-   
 </body>
 
 </html> 

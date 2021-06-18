@@ -1,82 +1,86 @@
 <!DOCTYPE html>
 <html lang="tr">
-<head>
-<meta http-equiv="Content-Type" content ="text/html"; charset="utf-8" />
-<title>Nilay Beşli Kişisel Web Sitesi</title>
-<meta name="description" content ="Nilay Beşli Kişisel Web Sitesi">
-<meta name="keywords" content="nilay,besli,bandirma,odev,html,css">
-<meta name = ”viewport” content = "width = device-width, initial-scale = 1 ">
 
-<link rel="stylesheet" href="style.css">
+<head>
+  <meta http-equiv="Content-Type" content ="text/html"; charset="utf-8" />
+  <title>Nilay Beşli Kişisel Web Sitesi</title>
+
+  <meta name="description" content ="Nilay Beşli Kişisel Web Sitesi">
+  <meta name="keywords" content="nilay,besli,bandirma,odev,html,css">
+  <meta name = ”viewport” content = "width = device-width, initial-scale = 1 ">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="sayfa">
-        <header id = "banner">
-            <div id="logo" >
-                <a href="index.html">
-                <img src="img/nilaylogo.png" alt="Nilay Besli" title="Nilay Besli"> </a>
-            </div> 
-            <div id="sosyal">
-                <a href="https://www.instagram.com/niilay1/"><img id="ikon" src="img/ig.png"></a>
-                <a href="https://www.twitter.com"><img id="ikon" src="img/twitter.png"></a>
-                <a href="https://www.linkedin.com/in/nilay-be%C5%9Fli-a21b95193/"><img id="ikon" src="img/linkedin.png"></a>
-                <a href="https://replit.com/@nilaybesli"><img id="ikon" src="img/repli.png"></a>
-                <a href="https://github.com/nilaybesli"><img id="ikon" src="img/github.png"></a>
-                <a href="https://www.youtube.com/"><img id="ikon" src="img/youtube.png"></a>
+  <div id="sayfa">
+    <header id = "banner">
 
-            </div>
-        </header>
+      <div id="logo" >
+        <a href="index.html">
+        <img src="img/nilaylogo.png" alt="Nilay Besli" title="Nilay Besli"> </a>
+      </div> 
 
+      <div id="sosyal">
+        <a href="https://www.instagram.com/niilay1/" target="_blank"><img id="ikon" src="img/ig.png" ></a>
+        <a href="https://www.twitter.com" target="_blank" ><img id="ikon" src="img/twitter.png"></a>
+        <a href="https://www.linkedin.com/in/nilay-be%C5%9Fli-a21b95193/ " target="_blank"><img id="ikon" src="img/linkedin.png"></a>
+        <a href="https://replit.com/@nilaybesli" target="_blank" ><img id="ikon" src="img/repli.png"></a>
+        <a href="https://github.com/nilaybesli" target="_blank"><img id="ikon" src="img/github.png"></a>
+        <a href="https://www.youtube.com/" target="_blank"><img id="ikon" src="img/youtube.png"></a>
+      </div>
 
-        <nav id="anamenu">
-            <ul> 
-            <li> <a href="index.html"> Anasayfa</a></li>
-            <li> <a href="fotogaleri.html"> Foto Galeri</a></li>
-            <li> <a href="hakkimda.html"> Hakkımda</a></li>
-            <li> <a href="gundem.html"> Gündem</a></li>
-            <li> <a href="projeler.html"> Projeler</a></li>
-            <li> <a href="iletisim.html"> İletişim</a></li>
+    </header>
 
-            </ul>
-        </nav>
+    <nav id="anamenu">
+      <ul> 
+        <li> <a href="index.html"> Anasayfa</a></li>
+        <li> <a href="fotogaleri.html"> Foto Galeri</a></li>
+        <li> <a href="hakkimda.html"> Hakkımda</a></li>
+        <li> <a href="gundem.html"> Gündem</a></li>
+        <li> <a href="iletisim.html"> İletişim</a></li>
+      </ul>
+    </nav>
+    
+    <article id ="icerik">
+      <font color="#1c282e" face="Verdana">
+        <h1> İletişim Bilgilerim : </h1>
+        <h3> E - posta : <br><br>nil.besli@gmail.com</h3><br>
+        <h3>  Telefon No :<br><br>0538 914 26 30 </h3><br>
+      </font>
+      
+      <div class="container_iletisim">  
+        <form id="contact" action="" method="post">
+          <font color="" face="Verdana"><h3>Hızlı İletişim İçin;</h3></font>
 
-        <article id ="icerik">
-          <font color="#1c282e" face="Verdana">
-          <h1> İletişim Bilgilerim : </h1>
-          <h3> E - posta : <br><br>nil.besli@gmail.com</h3><br>
-          <h3>  Telefon No :<br><br>0538 914 26 30 </h3><br>
-          </font>
+          <fieldset>
+            <input placeholder="Adınız" type="text" tabindex="1" required autofocus>
+          </fieldset>
 
-            <div class="container_iletisim">  
-              <form id="contact" action="" method="post">
-                <font color="" face="Verdana"><h3>Hızlı İletişim İçin;</h3></font>
-                <fieldset>
-                  <input placeholder="Adınız" type="text" tabindex="1" required autofocus>
-                </fieldset>
-                <fieldset>
-                  <input placeholder="E-mail adresiniz" type="email" tabindex="2" required>
-                </fieldset>
-                <fieldset>
-                  <textarea placeholder="Mesajınızı buraya giriniz...." tabindex="3" required></textarea>
-                </fieldset>
-                <fieldset>
-                  <button name="submit" type="submit" id="contact-submit" data-submit="...Gönderiliyor">Gönder</button>
-                </fieldset>
-              </form>
-            </div>
-            <font color="#1c282e" face="Verdana"> <h2> Yüz yüze görüşmek için ; </h2></font>
-            <iframe class="harita" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d465.3284599763993!2d27.935389204765166!3d40.33725119288027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b5d56daaea5f3f%3A0x92f5fa2d5fef86f4!2sBand%C4%B1rma%20Onyedi%20Eyl%C3%BCl%20%C3%9Cniversitesi%20M%C3%BChendislik%20ve%20Do%C4%9Fa%20Bilimleri%20Fak%C3%BCltesi!5e0!3m2!1str!2str!4v1621784586307!5m2!1str!2str" width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </article>
+          <fieldset>
+            <input placeholder="E-mail adresiniz" type="email" tabindex="2" required>
+          </fieldset>
 
-        
+          <fieldset>
+            <textarea placeholder="Mesajınızı buraya giriniz...." tabindex="3" required></textarea>
+          </fieldset>
 
-        <footer id="altmenu">
-        </footer>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Gönderiliyor">Gönder</button>
+          </fieldset>
+        </form>
+      </div>
+      <font color="#1c282e" face="Verdana"> <h2> Yüz yüze görüşmek için ; </h2></font>
+      <iframe class="harita" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d465.3284599763993!2d27.935389204765166!3d40.33725119288027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b5d56daaea5f3f%3A0x92f5fa2d5fef86f4!2sBand%C4%B1rma%20Onyedi%20Eyl%C3%BCl%20%C3%9Cniversitesi%20M%C3%BChendislik%20ve%20Do%C4%9Fa%20Bilimleri%20Fak%C3%BCltesi!5e0!3m2!1str!2str!4v1621784586307!5m2!1str!2str" width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </article>  
 
-    </div>
+    <footer id="altmenu">
+      <br>
+      <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank" style="text-align: center; color: navy; margin-left: 40%;">nil.besli@gmail.com</a>
+  </footer>
 
-
+  </div>
+  
 </body>
 
 </html> 
